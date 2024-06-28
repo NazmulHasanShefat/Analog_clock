@@ -1,0 +1,44 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style:none;
+}
+.watch_container{
+    margin:10px auto;
+    width: 40vw;
+    height: 40vw;
+    background-image: url("./clock-face-blank-isolated-on-white-background-vector-12891424.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+
+.hours,.minutes,.seconds{
+    position: absolute;
+    border-radius: 10px;
+    transform-origin:bottom;
+}
+.hours{
+    height: 24%;
+    width: 1.5%;
+    background-color: black;
+    top: 26%;
+    left: 49.1%;
+    /* display: none; */
+}
+.minutes{
+    height: 28%;
+    width: 1.3%;
+    background-color: rgb(13, 15, 13);
+    top: 22%;
+    left: 49.26%;
+    /* display: none; */
+}
+.seconds{
+    height: 34%;
+    width: 1%;
+    background-color: rgb(197, 9, 9);
+    top: 16%;
+    left: 49.4%;
+    /* display: none; */
+}
